@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments (Conda)
+env/
+venv/
+ENV/
+miniconda/
+conda-env/
+
+# Vector Database (Large files)
+vectordb/
+*.db
+*.sqlite3
+
+# Data files (can be large)
+data/raw/*.txt
+data/processed/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files
+*.bin
+*.pkl
+*.h5
+*.onnx
+
+# Temporary files
+*.tmp
+temp/
+tmp/
